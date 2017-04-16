@@ -123,7 +123,7 @@ my $socket; # socket handle
 my $logfilefh; #log file handle
 
 my $single_command_only = 0;		# flag, execute a single command and exit
-my @single_command_list = "";		# 	command for above
+my @single_command_list;		# 	command for above
 my $suppress_status_messages = 0;	# flag, if enabled will disable connection status messages
 
 my $parsed_hostname = "";
